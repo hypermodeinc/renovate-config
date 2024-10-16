@@ -9,19 +9,19 @@
     {
       "groupName": "frontend minor and patch",
       "matchManagers": ["npm"],
-      "matchUpdateTypes": ["patch", "minor"],
+      "matchUpdateTypes": ["digest", "patch", "minor"],
       "minimumReleaseAge": "3 days"
     },
     {
       "groupName": "api minor and patch",
       "matchManagers": ["gomod", "docker-compose"],
-      "matchUpdateTypes": ["patch", "minor"],
+      "matchUpdateTypes": ["digest", "patch", "minor"],
       "minimumReleaseAge": "3 days"
     },
     {
       "groupName": "dev minor and patch",
       "matchDepTypes": ["devDependencies"],
-      "matchUpdateTypes": ["patch", "minor"],
+      "matchUpdateTypes": ["digest", "patch", "minor"],
       "minimumReleaseAge": "3 days"
     },
     {
