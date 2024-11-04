@@ -5,6 +5,7 @@
   "rebaseWhen": "conflicted",
   "schedule": "on Wednesdays",
   "prHourlyLimit": 2,
+  "postUpdateOptions": ["gomodUpdateImportPaths"],
   "packageRules": [
     {
       "groupName": "frontend minor and patch",
