@@ -10,7 +10,7 @@
   "postUpdateOptions": ["gomodUpdateImportPaths"],
   "packageRules": [
     {
-      "groupName": "frontend minor and patch",
+      "groupName": "js minor and patch",
       "matchManagers": ["npm"],
       "matchUpdateTypes": ["digest", "patch", "minor"],
       "minimumReleaseAge": "3 days"
