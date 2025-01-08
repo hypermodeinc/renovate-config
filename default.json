@@ -11,13 +11,19 @@
   "packageRules": [
     {
       "groupName": "js minor and patch",
-      "matchManagers": ["npm"],
+      "matchCategories": ["js"],
       "matchUpdateTypes": ["digest", "patch", "minor"],
       "minimumReleaseAge": "3 days"
     },
     {
-      "groupName": "api minor and patch",
-      "matchManagers": ["gomod", "docker-compose"],
+      "groupName": "go minor and patch",
+      "matchCategories": ["golang"],
+      "matchUpdateTypes": ["digest", "patch", "minor"],
+      "minimumReleaseAge": "3 days"
+    },
+    {
+      "groupName": "infra minor and patch",
+      "matchCategories": ["iac", "kubernetes", "terraform", "docker", "helm"],
       "matchUpdateTypes": ["digest", "patch", "minor"],
       "minimumReleaseAge": "3 days"
     },
