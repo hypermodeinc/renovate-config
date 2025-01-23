@@ -7,7 +7,7 @@
   "rebaseWhen": "conflicted",
   "schedule": "on Wednesdays",
   "prHourlyLimit": 2,
-  "postUpdateOptions": ["gomodUpdateImportPaths, gomodTidy"],
+  "postUpdateOptions": ["gomodUpdateImportPaths", "gomodTidy"],
   "packageRules": [
     {
       "groupName": "js minor and patch",
