@@ -19,6 +19,7 @@
       "groupName": "go minor and patch",
       "matchCategories": ["golang"],
       "matchUpdateTypes": ["digest", "patch", "minor"],
+      "postUpdateOptions": ["gomodTidy"],
       "minimumReleaseAge": "3 days"
     },
     {
