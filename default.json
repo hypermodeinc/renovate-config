@@ -6,7 +6,8 @@
   "dependencyDashboard": "false",
   "rebaseWhen": "conflicted",
   "schedule": "on Wednesdays",
-  "prHourlyLimit": 2,
+  "prHourlyLimit": 5,
+  "minimumReleaseAge": "14 days",
   "postUpdateOptions": ["gomodUpdateImportPaths", "gomodTidy"],
   "packageRules": [
     {
