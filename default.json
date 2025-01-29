@@ -31,12 +31,14 @@
       "groupName": "dev minor and patch",
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["digest", "patch", "minor"],
-      "minimumReleaseAge": "3 days"
+      "minimumReleaseAge": "3 days",
+      "automerge": true
     },
     {
       "groupName": "actions",
       "matchManagers": ["github-actions"],
-      "minimumReleaseAge": "3 days"
+      "minimumReleaseAge": "3 days",
+      "automerge": true
     }
   ]
 }
