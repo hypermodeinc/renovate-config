@@ -8,6 +8,7 @@
   "schedule": "on Wednesdays",
   "prHourlyLimit": 5,
   "minimumReleaseAge": "14 days",
+  "rangeStrategy": "pin",
   "postUpdateOptions": ["gomodUpdateImportPaths", "gomodTidy"],
   "packageRules": [
     {
