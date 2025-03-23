@@ -25,6 +25,12 @@
       "minimumReleaseAge": "3 days"
     },
     {
+      "groupName": "python minor and patch",
+      "matchCategories": ["python"],
+      "matchUpdateTypes": ["digest", "patch", "minor"],
+      "minimumReleaseAge": "3 days"
+    },
+    {
       "groupName": "infra minor and patch",
       "matchCategories": ["iac", "kubernetes", "terraform", "docker", "helm"],
       "matchUpdateTypes": ["digest", "patch", "minor"],
