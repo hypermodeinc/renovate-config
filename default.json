@@ -6,7 +6,7 @@
   "commitMessagePrefix": "chore(deps): ",
   "dependencyDashboard": "false",
   "rebaseWhen": "conflicted",
-  "schedule": "on Wednesdays",
+  "schedule": "* 0-3 1 * *",
   "prHourlyLimit": 5,
   "minimumReleaseAge": "14 days",
   "rangeStrategy": "pin",
